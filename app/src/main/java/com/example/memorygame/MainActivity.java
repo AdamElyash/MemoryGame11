@@ -2,6 +2,7 @@ package com.example.memorygame;
 
 
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -32,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
     String turn = "counterPlayer1";
     Integer[] drawableIds = {
             // Array of drawable resource IDs
-            R.drawable.Ødegaard1, R.drawable.Trossard2, R.drawable.Nketiah3, R.drawable.Jesus4, R.drawable.Rice5, R.drawable.White6, R.drawable.Saka7, R.drawable.Saliba8,
-            R.drawable.Ødegaard1, R.drawable.Trossard2, R.drawable.Nketiah3, R.drawable.Jesus4, R.drawable.Rice5, R.drawable.White6, R.drawable.Saka7, R.drawable.Saliba8
+            R.drawable.odegaard1, R.drawable.trossard2, R.drawable.nketiah3, R.drawable.jesus4, R.drawable.rice5, R.drawable.white6, R.drawable.saka7, R.drawable.saliba8,
+            R.drawable.odegaard1, R.drawable.trossard2, R.drawable.nketiah3, R.drawable.jesus4, R.drawable.rice5, R.drawable.white6, R.drawable.saka7, R.drawable.saliba8
     };
     int[] viewId = {
             //creates arr of view Ids
@@ -43,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
             R.id.im_41, R.id.im_42, R.id.im_43, R.id.im_44
     };
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < drawableIds.length; i++) {
             // Create a new ImageView
             Context context = null;
-            ImageView imageView = new ImageView(context);
+            ImageView imageView = new ImageView(null);
             // Set the image resource for the ImageView
             imageView.setImageResource(drawableIds[i]);
             // Add the ImageView to the array
@@ -130,7 +132,8 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void Reset(View view) {
+    public void Reset(View view)
+    {
         shuffleCards();
         count = 0;
         countPlayer1 = 0;
@@ -141,16 +144,17 @@ public class MainActivity extends AppCompatActivity {
         counterTextView2.setText("P2-" + countPlayer2);
         for (int i = 0; i < viewId.length; i++) {
             ImageView cardClosed = findViewById(viewId[i]);
-            cardClosed.setImageResource(R.drawable.cardBackRed);
+            cardClosed.setImageResource(R.drawable.cardbackred);
         }
         lastOpenedCard1 = -1;
         lastOpenedCard2 = -1;
     }
 
-    public void closeCard(View view) {
+    public void closeCard(View view)
+    {
         ImageView cardClosed1 = findViewById(lastOpenedCard1);
-        cardClosed1.setImageResource(R.drawable.cardBackRed);
+        cardClosed1.setImageResource(R.drawable.cardbackred);
         ImageView cardClosed2 = findViewById(lastOpenedCard2);
-        cardClosed2.setImageResource(R.drawable.cardBackRed);
+        cardClosed2.setImageResource(R.drawable.cardbackred);
     }
 }

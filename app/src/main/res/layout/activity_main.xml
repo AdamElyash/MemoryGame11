@@ -17,7 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.123"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"
+         />
 
     <ImageView
         android:id="@+id/im_12"
@@ -30,7 +31,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.123"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"
+       />
 
     <ImageView
         android:id="@+id/im_13"
@@ -43,7 +45,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.123"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"
+         />
 
     <ImageView
         android:id="@+id/im_14"
@@ -56,7 +59,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.123"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"
+         />
 
     <ImageView
         android:id="@+id/im_21"
@@ -69,7 +73,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"
+         />
 
     <ImageView
         android:id="@+id/im_22"
@@ -82,7 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_23"
@@ -95,7 +100,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_24"
@@ -108,7 +113,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_31"
@@ -121,7 +126,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_32"
@@ -134,7 +139,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_33"
@@ -147,7 +152,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_34"
@@ -160,7 +165,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred"/>
 
     <ImageView
         android:id="@+id/im_41"
@@ -173,7 +178,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.737"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_42"
@@ -186,7 +191,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.737"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_43"
@@ -199,7 +204,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.737"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <ImageView
         android:id="@+id/im_44"
@@ -212,13 +217,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.737"
-        app:srcCompat="@drawable/cardBackRed" />
+        app:srcCompat="@drawable/cardbackred" />
 
     <TextView
         android:layout_width="129dp"
         android:layout_height="25dp"
         android:fontFamily="font/arial"
-        android:text="Memory Dogs!"
+        android:text="Memory Arsenal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
